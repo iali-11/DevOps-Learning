@@ -48,9 +48,9 @@ Run code:
 Response: Public IP address provided by EC2 instance.
 
 ## 7️⃣ Test in browser
-Visit:
-- nginx.[yourdomain]
+Visit: http://nginx.ibrahimalitech.com
 
 You should NGINX default welcome page provided via EC2 instance.🎉
 
 <img width="1104" height="717" alt="Screenshot 2025-11-08 at 15 15 22" src="https://github.com/user-attachments/assets/1ff2c2e4-4915-46b3-9586-ae605b7371e3" />
+
