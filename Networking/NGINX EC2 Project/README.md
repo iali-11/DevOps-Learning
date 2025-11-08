@@ -31,8 +31,7 @@ Run code in Terminal:
 - sudo systemctl start nginx
 
 ## 5️⃣ Add an A Record in Cloudflare
-
-<img width="1104" height="168" alt="Screenshot 2025-11-08 at 15 22 36" src="https://github.com/user-attachments/assets/7ec419c7-e43d-45dc-b760-252976275534" />
+<img width="1104" height="168" alt="Screenshot 2025-11-08 at 15 22 36" src="https://github.com/user-attachments/assets/16b97a2d-6809-4eaf-be83-df1a18f9a576" />
 
 Configure the new record:
 - Type: A
@@ -42,6 +41,7 @@ Configure the new record:
 - TTL: Auto
 
 ## 6️⃣ Test in Terminal
+
 Run code:
   - dig +short nginx.[yourdomain].
 
@@ -51,6 +51,8 @@ Response: Public IP address provided by EC2 instance.
 Visit: http://nginx.ibrahimalitech.com
 
 You should NGINX default welcome page provided via EC2 instance.🎉
+<img width="1104" height="717" alt="Screenshot 2025-11-08 at 15 15 22" src="https://github.com/user-attachments/assets/6eabcd72-b0c8-43e5-bb38-71daf112e4b4" />
 
-<img width="1104" height="717" alt="Screenshot 2025-11-08 at 15 15 22" src="https://github.com/user-attachments/assets/1ff2c2e4-4915-46b3-9586-ae605b7371e3" />
+
+
 
